@@ -1,3 +1,5 @@
+# 使用OpenAPI的API，实现一个简单的AI求职信助手
+
 import openai
 import os
 import streamlit as st
