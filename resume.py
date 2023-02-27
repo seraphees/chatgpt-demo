@@ -3,8 +3,10 @@
 import openai
 import os
 import streamlit as st
+from dotenv import load_dotenv
 
 # 设置OpenAI API密钥
+load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # 获取用户输入的个人资料和工作描述
